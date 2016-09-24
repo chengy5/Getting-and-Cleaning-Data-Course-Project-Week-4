@@ -61,10 +61,3 @@ write.table(tidydata, "tidydata.csv", row.name=FALSE)
 ## Write codebook
 library(memisc)
 Write(codebook(tidydata),"CodeBook.md")
-
-
-
-write.table(tidydatacodebook, "tidydatacodebook.txt")
-write.
-
-str(alldata)
