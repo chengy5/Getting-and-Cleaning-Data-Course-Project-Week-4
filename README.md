@@ -3,9 +3,13 @@
 
 ##Step1.Merges the training and the test sets to create one data set
 -Down load and unzip file 
+
 -Read features data
+
 -Read test data and merge test data into one data set
+
 -Read train data and merge train data into one data set
+
 -Merge test data and train data into one data set
 
 
