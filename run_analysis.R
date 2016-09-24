@@ -58,7 +58,7 @@ tidydata <- tidydata[order(tidydata$VolunteerID, tidydata$Activity),]
 write.table(tidydata, "tidydata.csv", row.name=FALSE)
 
 
-## Write cookbook
+## Write codebook
 library(memisc)
 Write(codebook(tidydata),"CodeBook.md")
 
